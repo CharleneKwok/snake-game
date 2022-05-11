@@ -1,0 +1,14 @@
+body {
+  background-image: url("https://img.freepik.com/free-vector/dark-hexagonal-background-with-gradient-color_79603-1410.jpg?t=st=1652272950~exp=1652273550~hmac=002dd688203b84abc4c872b5ba60982bd82cb623f38cfbf64c4dd3fb072fa255&w=2000");
+  background-size: cover;
+}
+
+#gameBoard {
+  width: 85vmin;
+  height: 85vmin;
+  margin: auto;
+  margin-top: 100px;
+  background-color: black;
+  border: 3px grey solid;
+  border-radius: 10px;
+}
