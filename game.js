@@ -17,7 +17,7 @@ const main = (currTime) => {
     const restartBtn = document.getElementById("restart");
     score.innerText = `Your score is ${getLength()}`;
     restartBtn.onclick = () => {
-      window.location = "/";
+      window.location = "https://snake-game-499.netlify.app/";
     };
     failModel.style.display = "block";
     return;
