@@ -1,5 +1,5 @@
 body {
-  background-image: url("https://img.freepik.com/free-vector/dark-hexagonal-background-with-gradient-color_79603-1410.jpg?t=st=1652272950~exp=1652273550~hmac=002dd688203b84abc4c872b5ba60982bd82cb623f38cfbf64c4dd3fb072fa255&w=2000");
+  background-image: url("https://i.pinimg.com/originals/c5/c4/fc/c5c4fc26b8ee3c3566a6889364c23699.jpg");
   background-size: cover;
 }
 
@@ -22,7 +22,7 @@ body {
   width: 340px;
   height: auto;
   background-color: grey;
-  top: 30vmin;
+  top: 20vmin;
   left: 0;
   right: 0;
   margin: auto;
