@@ -16,7 +16,6 @@ export const snakeUpdate = () => {
 
 export const incrementLength = () => {
   snakePos.push(popElement);
-  console.log("🚀 ~ addSpeedLength", addSpeedLength);
   if (snakePos.length === addSpeedLength) {
     console.log("add");
     SNAKE_SPEED += 1;
