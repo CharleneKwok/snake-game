@@ -17,7 +17,7 @@ body {
   color: white;
 }
 
-#failModel {
+#model {
   position: absolute;
   width: 340px;
   height: auto;
@@ -32,7 +32,7 @@ body {
   display: none;
 }
 
-#failModel button {
+#model button {
   background-color: black;
   color: white;
   padding: 10px;

@@ -10,16 +10,26 @@ const gameBoard = document.getElementById("gameBoard");
 let gameOver = false;
 let lastRenderTime = 0;
 
+const showModel = (text) => {
+  const model = document.getElementById("model");
+  const score = document.getElementById("score");
+  const restartBtn = document.getElementById("restart");
+  score.innerText = text;
+  restartBtn.onclick = () => {
+    window.location = "https://snake-game-499.netlify.app/";
+  };
+  model.style.display = "block";
+};
+
 const main = (currTime) => {
+  const snakeLen = getLength();
+  const winScore = 21 * 21;
+  if (snakeLen === winScore) {
+    showModel(`Congrats! You win!!`);
+    return;
+  }
   if (gameOver) {
-    const failModel = document.getElementById("failModel");
-    const score = document.getElementById("score");
-    const restartBtn = document.getElementById("restart");
-    score.innerText = `Your score is ${getLength()}`;
-    restartBtn.onclick = () => {
-      window.location = "https://snake-game-499.netlify.app/";
-    };
-    failModel.style.display = "block";
+    showModel(`Your score is ${snakeLen}`);
     return;
   }
   window.requestAnimationFrame(main);
